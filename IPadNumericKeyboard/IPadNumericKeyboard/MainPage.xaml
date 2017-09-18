@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:IPadNumericKeyboard"
-             x:Class="IPadNumericKeyboard.MainPage">
+<ContentPage
+    x:Class="IPadNumericKeyboard.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:IPadNumericKeyboard">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout
+        BackgroundColor="Aqua"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to awesome iPad numeric keyboard"
+            VerticalOptions="Center" />
+        <Entry BackgroundColor="Aquamarine" Keyboard="Numeric" />
+    </StackLayout>
 
 </ContentPage>
