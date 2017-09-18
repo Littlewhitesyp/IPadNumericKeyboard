@@ -12,6 +12,7 @@ Things that you should do to create custom keyboard:
 </br> </br>
 4)Create .xib file and draw keyboard layout, you could use some icons. Do whatever you want.</br>
 (As I'm not xamarin ios developer, it's hard for me to work with Constraints on Visual Studio, so I use Xcode, and create keyboard layout. After that, I add .xib file to visual studio, so it works correctly) 
+(Look on iOS/Keyboards/Containers/iPadNumericKeyboard.xib, or it's better to use it)
 </br> </br>
 5)Bind or add a class to the "view" of your xib file (if it's not exist, please add "view") 
 </br> </br>
